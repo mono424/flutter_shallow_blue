@@ -26,6 +26,12 @@ android {
 
     defaultConfig {
         minSdkVersion 16
+
+        externalNativeBuild {
+            cmake {
+                cppFlags "-Wall", "-std=c++11", "-O3", "-flto", "-pthread", "-fno-exceptions", "-static"
+            }
+        }
     }
 
     externalNativeBuild {

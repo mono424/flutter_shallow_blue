@@ -1,7 +1,7 @@
 {
   "stringTable": {
     "0": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/arm64-v8a",
-    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dfluttershallowblue_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dfluttershallowblue_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -Wall -std=c++11 -O3 -flto -pthread -fno-exceptions -static -O0 -fno-limit-debug-info -fPIC"
   },
   "buildFiles": [
     "/Users/khadim/flutter_shallow_blue/android/CMakeLists.txt",

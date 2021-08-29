@@ -1,6 +1,7 @@
                 Executable : /Users/khadim/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
 arguments : 
 -H/Users/khadim/flutter_shallow_blue/android
+-DCMAKE_CXX_FLAGS=-Wall -std=c++11 -O3 -flto -pthread -fno-exceptions -static
 -DCMAKE_FIND_ROOT_PATH=/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/prefab/arm64-v8a/prefab
 -DCMAKE_BUILD_TYPE=Debug
 -DCMAKE_TOOLCHAIN_FILE=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake

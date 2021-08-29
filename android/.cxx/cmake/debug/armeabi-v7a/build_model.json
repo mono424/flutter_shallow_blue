@@ -20,6 +20,10 @@
       "cmakeExecutable": "/Users/khadim/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
         {
+          "name": "CMAKE_CXX_FLAGS",
+          "value": "-Wall -std\u003dc++11 -O3 -flto -pthread -fno-exceptions -static"
+        },
+        {
           "name": "CMAKE_FIND_ROOT_PATH",
           "value": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/prefab/armeabi-v7a/prefab"
         },
@@ -88,7 +92,15 @@
     "implicitBuildTargetSet": [],
     "cFlagsList": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
-    "cppFlagsList": [],
+    "cppFlagsList": [
+      "-Wall",
+      "-std\u003dc++11",
+      "-O3",
+      "-flto",
+      "-pthread",
+      "-fno-exceptions",
+      "-static"
+    ],
     "isDebuggableEnabled": true,
     "module": {
       "buildSystem": "CMAKE",

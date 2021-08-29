@@ -1,110 +1,22 @@
 ninja: Entering directory `/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a'
-[1/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc.o
-FAILED: CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc.o 
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc.o -MF CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc.o.d -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc
-In file included from /Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc:1:
-/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.h:100:15: error: implicit instantiation of undefined template 'std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >'
-  std::string _value;
-              ^
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd:209:32: note: template is declared here
-    class _LIBCPP_TEMPLATE_VIS basic_string;
-                               ^
-In file included from /Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc:1:
-/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.h:107:15: error: implicit instantiation of undefined template 'std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >'
-  std::string _type;
-              ^
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd:209:32: note: template is declared here
-    class _LIBCPP_TEMPLATE_VIS basic_string;
-                               ^
-In file included from /Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc:1:
-/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.h:112:15: error: implicit instantiation of undefined template 'std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >'
-  std::string _defaultValue;
-              ^
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd:209:32: note: template is declared here
-    class _LIBCPP_TEMPLATE_VIS basic_string;
-                               ^
-/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc:22:17: error: no member named 'to_string' in namespace 'std'
-    _value(std::to_string(value)),
-           ~~~~~^
-/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc:24:24: error: no member named 'to_string' in namespace 'std'
-    _defaultValue(std::to_string(value)),
-                  ~~~~~^
-/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc:37:21: error: implicit instantiation of undefined template 'std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >'
-std::string Option::getValue() const {
-                    ^
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd:209:32: note: template is declared here
-    class _LIBCPP_TEMPLATE_VIS basic_string;
-                               ^
-/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc:41:21: error: implicit instantiation of undefined template 'std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >'
-std::string Option::getType() const {
-                    ^
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd:209:32: note: template is declared here
-    class _LIBCPP_TEMPLATE_VIS basic_string;
-                               ^
-/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc:45:21: error: implicit instantiation of undefined template 'std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >'
-std::string Option::getDefaultValue() const {
-                    ^
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd:209:32: note: template is declared here
-    class _LIBCPP_TEMPLATE_VIS basic_string;
-                               ^
-/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc:57:35: error: implicit instantiation of undefined template 'std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >'
-void Option::setValue(std::string value) {
-                                  ^
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd:209:32: note: template is declared here
-    class _LIBCPP_TEMPLATE_VIS basic_string;
-                               ^
-In file included from /Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc:1:
-In file included from /Users/khadim/flutter_shallow_blue/shallow-blue/src/option.h:4:
-In file included from /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/map:479:
-In file included from /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__tree:14:
-In file included from /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iterator:421:
-In file included from /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__functional_base:18:
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/utility:323:9: error: implicit instantiation of undefined template 'std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >'
-    _T1 first;
-        ^
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/map:666:16: note: in instantiation of template class 'std::__ndk1::pair<const std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, Option>' requested here
-    value_type __cc;
-               ^
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__tree:757:23: note: in instantiation of template class 'std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, Option>' requested here
-    __node_value_type __value_;
-                      ^
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__tree:1830:49: note: in instantiation of template class 'std::__ndk1::__tree_node<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, Option>, void *>' requested here
-        destroy(static_cast<__node_pointer>(__nd->__left_));
-                                                ^
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__tree:1821:3: note: in instantiation of member function 'std::__ndk1::__tree<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, Option>, std::__ndk1::__map_value_compare<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, Option>, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, true>, std::__ndk1::allocator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, Option> > >::destroy' requested here
-  destroy(__root());
-  ^
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/map:960:5: note: in instantiation of member function 'std::__ndk1::__tree<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, Option>, std::__ndk1::__map_value_compare<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, Option>, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, true>, std::__ndk1::allocator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, Option> > >::~__tree' requested here
-    map()
-    ^
-/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc:3:31: note: in instantiation of member function 'std::__ndk1::map<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, Option, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, std::__ndk1::allocator<std::__ndk1::pair<const std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, Option> > >::map' requested here
-std::map<std::string, Option> optionsMap;
-                              ^
-/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd:209:32: note: template is declared here
-    class _LIBCPP_TEMPLATE_VIS basic_string;
-                               ^
-10 errors generated.
-[2/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/rays.cc.o
-[3/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/eval.cc.o
-[4/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/src/flutter_shallow_blue.cpp.o
-/Users/khadim/flutter_shallow_blue/src/flutter_shallow_blue.cpp:36:19: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
-  char *argv[] = {""};
-                  ^
-1 warning generated.
-[5/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/attacks.cc.o
-[6/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/movepicker.cc.o
-[7/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/move.cc.o
-[8/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/orderinginfo.cc.o
-[9/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/qsearchmovepicker.cc.o
-[10/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/generalmovepicker.cc.o
-[11/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/psquaretable.cc.o
-[12/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/zkey.cc.o
-[13/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/movegen.cc.o
-[14/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/transptable.cc.o
-[15/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/pawnstructuretable.cc.o
-[16/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/board.cc.o
-[17/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/main.cc.o
-[18/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/search.cc.o
-[19/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/book.cc.o
-[20/21] Building CXX object CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/uci.cc.o
+[1/1] Linking CXX shared library /Users/khadim/flutter_shallow_blue/example/build/flutter_shallow_blue/intermediates/cmake/debug/obj/armeabi-v7a/libfluttershallowblue.so
+FAILED: /Users/khadim/flutter_shallow_blue/example/build/flutter_shallow_blue/intermediates/cmake/debug/obj/armeabi-v7a/libfluttershallowblue.so 
+: && /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Wall -std=c++11 -O3 -flto -pthread -fno-exceptions -static -O0 -fno-limit-debug-info  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -shared -Wl,-soname,libfluttershallowblue.so -o /Users/khadim/flutter_shallow_blue/example/build/flutter_shallow_blue/intermediates/cmake/debug/obj/armeabi-v7a/libfluttershallowblue.so CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/src/flutter_shallow_blue.cpp.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/attacks.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/board.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/book.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/eval.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/generalmovepicker.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/main.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/move.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/movegen.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/movepicker.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/orderinginfo.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/pawnstructuretable.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/psquaretable.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/qsearchmovepicker.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/rays.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/search.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/transptable.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/uci.cc.o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/zkey.cc.o  -latomic -lm && :
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/libc.a(stdio.o): multiple definition of 'swprintf'
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libandroid_support.a(swprintf.o): previous definition here
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/libc.a(malloc_common.o): multiple definition of 'posix_memalign'
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libandroid_support.a(posix_memalign.o): previous definition here
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/libc.a(locale.o): multiple definition of 'duplocale'
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libandroid_support.a(locale.o): previous definition here
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/libc.a(locale.o): multiple definition of 'freelocale'
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libandroid_support.a(locale.o): previous definition here
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/libc.a(locale.o): multiple definition of 'localeconv'
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libandroid_support.a(locale.o): previous definition here
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/libc.a(locale.o): multiple definition of 'newlocale'
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libandroid_support.a(locale.o): previous definition here
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/libc.a(locale.o): multiple definition of 'setlocale'
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libandroid_support.a(locale.o): previous definition here
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/16/libc.a(locale.o): multiple definition of 'uselocale'
+/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: /Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libandroid_support.a(locale.o): previous definition here
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
 ninja: build stopped: subcommand failed.
