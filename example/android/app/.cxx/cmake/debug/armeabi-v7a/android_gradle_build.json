@@ -1,0 +1,293 @@
+{
+  "stringTable": {
+    "0": "/Users/khadim/flutter_shallow_blue/example/android/app/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dfluttershallowblue_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/khadim/flutter_shallow_blue/example/android/app/CMakeLists.txt",
+    "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/khadim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/khadim/flutter_shallow_blue/example/android/app/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/khadim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/khadim/flutter_shallow_blue/example/android/app/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "fluttershallowblue-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/khadim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/khadim/flutter_shallow_blue/example/android/app/.cxx/cmake/debug/armeabi-v7a\" fluttershallowblue",
+      "buildType": "debug",
+      "toolchain": "3601448717",
+      "abi": "armeabi-v7a",
+      "artifactName": "fluttershallowblue",
+      "files": [
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/src/flutter_shallow_blue.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/arasanx.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/attacks.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/bench.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/bhash.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/bitbase.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/bitboard.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/bitprobe.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/board.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/boardio.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/bookread.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/bookwrit.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/calctime.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/chess.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/chessio.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/eco.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/ecodata.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/ecoinfo.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/epdrec.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/globals.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/hash.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/learn.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/legal.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/log.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/material.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/movearr.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/movegen.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/nnueintf.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/notation.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/options.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/params.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/protocol.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/scoring.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/search.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/searchc.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/see.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/stats.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/syzygy.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/tester.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/threadc.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/threadp.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/topo.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/tune.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/tuner.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/unit.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/util/ecocoder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/util/makebook.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/util/makeeco.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/util/pgnselect.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/util/playchess.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/arasan-chess/src/util/selfplay.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/khadim/flutter_shallow_blue/example/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libfluttershallowblue.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "3601448717": {
+      "cppCompilerExecutable": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

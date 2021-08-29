@@ -1,0 +1,6 @@
+# ninja log v5
+0	24	1630261029	CMakeFiles/weather.dir/Users/khadim/flutter_shallow_blue/src/weather.c.o	42f79c272444d57d
+24	45	1630261029	/Users/khadim/flutter_shallow_blue/example/build/app/intermediates/cmake/debug/obj/arm64-v8a/libweather.so	3bc6961c2e5b487c
+1	22	1630262947	/Users/khadim/flutter_shallow_blue/example/build/app/intermediates/cmake/debug/obj/arm64-v8a/libweather.so	3bc6961c2e5b487c
+0	26	1630263058	CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/src/flutter_shallow_blue.c.o	72793f95977ef64
+26	47	1630263058	/Users/khadim/flutter_shallow_blue/example/build/app/intermediates/cmake/debug/obj/arm64-v8a/libfluttershallowblue.so	d84c6ed8238c2732

@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/khadim/flutter_shallow_blue/example/android/app/CMakeLists.txt",
+    "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/khadim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/khadim/flutter_shallow_blue/example/android/app/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/khadim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/khadim/flutter_shallow_blue/example/android/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "fluttershallowblue-Debug-arm64-v8a": {
+      "artifactName": "fluttershallowblue",
+      "buildCommand": "/Users/khadim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/khadim/flutter_shallow_blue/example/android/app/.cxx/cmake/debug/arm64-v8a\" fluttershallowblue",
+      "abi": "arm64-v8a",
+      "output": "/Users/khadim/flutter_shallow_blue/example/build/app/intermediates/cmake/debug/obj/arm64-v8a/libfluttershallowblue.so",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/khadim/flutter_shallow_blue/example/android/app/.cxx/cmake/debug/armeabi-v7a'
+[1/1] Linking C shared library /Users/khadim/flutter_shallow_blue/example/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libweather.so

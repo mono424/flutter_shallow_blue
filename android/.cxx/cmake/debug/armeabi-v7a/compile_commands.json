@@ -1,0 +1,121 @@
+[
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/src/flutter_shallow_blue.cpp.o -c /Users/khadim/flutter_shallow_blue/src/flutter_shallow_blue.cpp",
+  "file": "/Users/khadim/flutter_shallow_blue/src/flutter_shallow_blue.cpp"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/attacks.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/attacks.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/attacks.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/board.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/board.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/board.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/book.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/book.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/book.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/eval.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/eval.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/eval.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/generalmovepicker.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/generalmovepicker.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/generalmovepicker.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/main.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/main.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/main.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/move.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/move.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/move.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/movegen.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/movegen.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/movegen.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/movepicker.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/movepicker.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/movepicker.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/orderinginfo.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/orderinginfo.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/orderinginfo.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/pawnstructuretable.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/pawnstructuretable.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/pawnstructuretable.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/psquaretable.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/psquaretable.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/psquaretable.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/qsearchmovepicker.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/qsearchmovepicker.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/qsearchmovepicker.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/rays.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/rays.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/rays.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/search.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/search.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/search.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/transptable.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/transptable.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/transptable.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/uci.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/uci.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/uci.cc"
+},
+
+{
+  "directory": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dfluttershallowblue_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/fluttershallowblue.dir/Users/khadim/flutter_shallow_blue/shallow-blue/src/zkey.cc.o -c /Users/khadim/flutter_shallow_blue/shallow-blue/src/zkey.cc",
+  "file": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/zkey.cc"
+}
+]

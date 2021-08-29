@@ -1,0 +1,139 @@
+{
+  "stringTable": {
+    "0": "/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dfluttershallowblue_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/khadim/flutter_shallow_blue/android/CMakeLists.txt",
+    "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/khadim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/Users/khadim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "fluttershallowblue-Debug-x86_64": {
+      "buildCommand": "/Users/khadim/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/khadim/flutter_shallow_blue/android/.cxx/cmake/debug/x86_64\" fluttershallowblue",
+      "buildType": "debug",
+      "toolchain": "3601448717",
+      "abi": "x86_64",
+      "artifactName": "fluttershallowblue",
+      "files": [
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/src/flutter_shallow_blue.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/attacks.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/board.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/book.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/eval.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/generalmovepicker.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/main.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/move.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/movegen.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/movepicker.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/option.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/orderinginfo.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/pawnstructuretable.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/psquaretable.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/qsearchmovepicker.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/rays.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/search.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/transptable.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/uci.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/khadim/flutter_shallow_blue/shallow-blue/src/zkey.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/khadim/flutter_shallow_blue/example/build/flutter_shallow_blue/intermediates/cmake/debug/obj/x86_64/libfluttershallowblue.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "3601448717": {
+      "cppCompilerExecutable": "/Users/khadim/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}
